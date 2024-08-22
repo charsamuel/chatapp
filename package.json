@@ -6,12 +6,17 @@
 	"scripts": {
 		"server": "nodemon backend/server.js",
 		"start": "node backend/server.js",
-		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+		"heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
 	},
 	"type": "module",
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
+	"engines": {
+  "node": ">=20.x",
+  "npm": ">=10.x"
+	},
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
 		"cookie-parser": "^1.4.6",
