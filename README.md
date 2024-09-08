@@ -3,6 +3,7 @@
 
 
 Some Features:
+<img width="1439" alt="Screenshot 2024-08-21 at 5 11 12 PM" src="https://github.com/user-attachments/assets/ebac2084-b553-4e4b-9b8a-d2603bcc2790">
 
 -   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
 -   🎃 Authentication && Authorization with JWT
@@ -17,6 +18,7 @@ Some Features:
 
 ```js
 PORT=...
+
 MONGO_DB_URI=...
 JWT_SECRET=...
 NODE_ENV=...
